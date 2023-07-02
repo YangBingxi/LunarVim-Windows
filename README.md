@@ -24,7 +24,7 @@ Files->x86_64_win32-sjlj
 安装node.js后会自动安装
 ### node
 [link](https://nodejs.org/en) 
-- cargo
+### cargo
 [link](https://www.rust-lang.org/tools/install) 
 
 ---
@@ -37,4 +37,8 @@ Files->x86_64_win32-sjlj
 powershell执行：`pwsh -c "`$LV_BRANCH='release-1.3/neovim-0.9'; iwr https://raw.githubusercontent.com/LunarVim/LunarVim/release-1.3/neovim-0.9/utils/installer/install.ps1 -UseBasicParsing | iex"`
 安装后的lvim在`user/.local/bin/lvim.ps1`
 "# LunarVim-Windows" 
-# LunarVim-Windows
+
+## 安装后
+添加字体：
+`mkdir -p ~/.local/share/fonts
+cd ~/.local/share/fonts && curl -fLO https://github.com/ryanoasis/nerd-fonts/raw/HEAD/patched-fonts/DroidSansMono/DroidSansMNerdFont-Regular.otf`

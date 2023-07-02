@@ -42,3 +42,5 @@ powershell执行：`pwsh -c "`$LV_BRANCH='release-1.3/neovim-0.9'; iwr https://r
 添加字体：
 `mkdir -p ~/.local/share/fonts
 cd ~/.local/share/fonts && curl -fLO https://github.com/ryanoasis/nerd-fonts/raw/HEAD/patched-fonts/DroidSansMono/DroidSansMNerdFont-Regular.otf`
+
+字体文件放置在`user\.loacl\share\fonts`
